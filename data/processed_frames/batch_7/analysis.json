@@ -1,0 +1,41 @@
+{
+    "analysis": {
+        "motion_detected": true,
+        "scene_dynamic": true,
+        "queue_detected": true,
+        "unauthorized_access_possible": true
+    },
+    "what_is_in_frame": "The frames show a jewelry store robbery taking place in daylight. There are multiple individuals inside the store, including staff and the thieves. The thieves appear to be smashing display cases and taking items. The footage is from CCTV cameras, and the text on the screen indicates that at least one of the robbers has been apprehended and is serving a 10-year jail sentence.",
+    "original_data": {
+        "scene_classification": [
+            "robbery",
+            "jewelry store",
+            "crime scene",
+            "surveillance footage"
+        ],
+        "detected_objects": [
+            "jewelry display cases",
+            "jewelry",
+            "people",
+            "chairs",
+            "tables",
+            "bags",
+            "cameras"
+        ],
+        "suspicious_behavior": {
+            "loitering_detected": false,
+            "sudden_movement_detected": true
+        }
+    },
+    "batch_info": {
+        "batch_number": 7,
+        "frames_processed": [
+            "frame_870.jpg",
+            "frame_90.jpg",
+            "frame_900.jpg",
+            "frame_930.jpg",
+            "frame_960.jpg"
+        ],
+        "timestamp": "2025-03-02T06:17:31.463016"
+    }
+}

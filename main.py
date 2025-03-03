@@ -1,7 +1,7 @@
 import argparse
 from src.frame_extractor import extract_frames
 from pathlib import Path
-from src.ai_integration import send_to_ai
+from src.ai_integration import process_frame_batches
 
 VIDEO_DIR = "data/raw_videos"
 OUTPUT_DIR = "data/detected_frames"
@@ -34,7 +34,7 @@ def main():
     for frame_dir in output_dir.glob("*"):
         if frame_dir.is_dir():
             print(f"Sending frames from {frame_dir.name} to AI service")
-            send_to_ai(str(frame_dir))
+            process_frame_batches(str(frame_dir))
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,41 @@
+{
+    "analysis": {
+        "motion_detected": true,
+        "scene_dynamic": true,
+        "queue_detected": true,
+        "unauthorized_access_possible": true
+    },
+    "what_is_in_frame": "The video frames show a jewelry store robbery in progress. Multiple individuals wearing helmets and dark clothing are inside the store, smashing display cases and taking jewelry. A vehicle, identified as a stolen Range Rover, is used to smash the front of the shop. There are also other individuals inside the shop that are likely employees or customers.",
+    "original_data": {
+        "scene_classification": [
+            "indoor",
+            "robbery",
+            "jewelry store",
+            "crime scene"
+        ],
+        "detected_objects": [
+            "person",
+            "jewelry display case",
+            "jewelry",
+            "vehicle",
+            "hammer",
+            "helmet",
+            "bag"
+        ],
+        "suspicious_behavior": {
+            "loitering_detected": false,
+            "sudden_movement_detected": true
+        }
+    },
+    "batch_info": {
+        "batch_number": 2,
+        "frames_processed": [
+            "frame_180.jpg",
+            "frame_210.jpg",
+            "frame_240.jpg",
+            "frame_270.jpg",
+            "frame_30.jpg"
+        ],
+        "timestamp": "2025-03-02T06:17:09.094389"
+    }
+}

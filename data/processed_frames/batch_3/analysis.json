@@ -1,0 +1,41 @@
+{
+    "analysis": {
+        "motion_detected": true,
+        "scene_dynamic": true,
+        "queue_detected": false,
+        "unauthorized_access_possible": true
+    },
+    "what_is_in_frame": "The video frames show a jewelry store robbery in progress. Several individuals dressed in black are smashing display cases with hammers and stealing jewelry. Glass shards are scattered across the floor. A black SUV is visible outside the store's shattered entrance. The store is filled with display cases containing jewelry, and there are also chairs and a desk visible.",
+    "original_data": {
+        "scene_classification": [
+            "robbery",
+            "jewelry store",
+            "crime scene"
+        ],
+        "detected_objects": [
+            "jewelry",
+            "display cases",
+            "hammer",
+            "SUV",
+            "glass shards",
+            "chairs",
+            "desk",
+            "individuals"
+        ],
+        "suspicious_behavior": {
+            "loitering_detected": false,
+            "sudden_movement_detected": true
+        }
+    },
+    "batch_info": {
+        "batch_number": 3,
+        "frames_processed": [
+            "frame_300.jpg",
+            "frame_330.jpg",
+            "frame_360.jpg",
+            "frame_390.jpg",
+            "frame_420.jpg"
+        ],
+        "timestamp": "2025-03-02T06:17:13.836064"
+    }
+}

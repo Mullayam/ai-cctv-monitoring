@@ -1,0 +1,176 @@
+{
+    "video_name": "FEED1",
+    "total_batches": 8,
+    "timestamp": "2025-03-02T06:17:33.537081",
+    "description": "This is a summary report for the video.The frame depicts the interior of a jewelry store, featuring customers and staff. There are display cases filled with watches and jewelry, seating areas with chairs and tables, and luggage present. The footage, marked with the Metropolitan Police logo, appears to be security camera footage, dated October 25, 2019. A logo for The Telegraph appears in some frames.The video frames show a jewelry store robbery in progress. Multiple individuals wearing helmets and dark clothing are inside the store, smashing display cases and taking jewelry. A vehicle, identified as a stolen Range Rover, is used to smash the front of the shop. There are also other individuals inside the shop that are likely employees or customers.The video frames show a jewelry store robbery in progress. Several individuals dressed in black are smashing display cases with hammers and stealing jewelry. Glass shards are scattered across the floor. A black SUV is visible outside the store's shattered entrance. The store is filled with display cases containing jewelry, and there are also chairs and a desk visible.The frames show a jewelry store robbery in progress. Several individuals dressed in dark clothing are smashing display cases and grabbing merchandise. Shattered glass is scattered across the floor. One person is holding what appears to be a crowbar or hammer. There's a display of jewelry mannequins along one wall, and security camera footage timestamps are visible in the corners of the frames, along with the logo of the Metropolitan Police.The frames depict a jewelry store robbery taking place during the day. A car has crashed through the storefront, and multiple thieves, dressed in dark clothing and helmets, are smashing display cases and stealing jewelry. Other people with suitcases are also in the frame. The scene is chaotic, with debris scattered everywhere. The Metropolitan Police logo is visible in the bottom left corner of some frames, indicating that the video is from police surveillance footage. Text overlays describe the event as a daylight robbery and mention that one of the thieves was caught by members of the public.The frames show a jewelry store robbery in progress. A black SUV has crashed through the front window of the store. There are individuals wearing helmets and dark clothing inside the store, one carrying a bag. They appear to be stealing items from display cases. Broken glass and debris are scattered around the scene. One frame indicates that one of the thieves was caught and is serving a 10-year jail sentence.The frames show a jewelry store robbery taking place in daylight. There are multiple individuals inside the store, including staff and the thieves. The thieves appear to be smashing display cases and taking items. The footage is from CCTV cameras, and the text on the screen indicates that at least one of the robbers has been apprehended and is serving a 10-year jail sentence.The image shows the logo of 'The Telegraph' newspaper in white against a dark blue background. Below the logo, there is a small text 'READ MORE AT:'. The overall style is clean and minimalistic.",
+    "overall_analysis": {
+        "motion_detected_count": 7,
+        "scene_classifications": [
+            "jewelry store",
+            "retail",
+            "store",
+            "crime scene",
+            "robbery",
+            "commercial",
+            "indoor",
+            "surveillance footage",
+            "commercial space"
+        ],
+        "detected_objects": [
+            "desk",
+            "glass fragments",
+            "display case",
+            "individuals",
+            "display cases",
+            "jewelry display cases",
+            "glass shards",
+            "jewelry display case",
+            "jewelry",
+            "bag",
+            "suitcase",
+            "chairs",
+            "car",
+            "watches",
+            "vehicle",
+            "helmet",
+            "people",
+            "SUV",
+            "table",
+            "hammer",
+            "person",
+            "luggage",
+            "security camera",
+            "cameras",
+            "bags",
+            "tables",
+            "chair"
+        ],
+        "suspicious_behavior_incidents": 7
+    },
+    "batch_summaries": [
+        {
+            "batch_number": 1,
+            "frames_processed": [
+                "frame_0.jpg",
+                "frame_1020.jpg",
+                "frame_1050.jpg",
+                "frame_120.jpg",
+                "frame_150.jpg"
+            ],
+            "key_findings": {
+                "motion_detected": true,
+                "scene_dynamic": true,
+                "queue_detected": true,
+                "unauthorized_access_possible": true
+            }
+        },
+        {
+            "batch_number": 2,
+            "frames_processed": [
+                "frame_180.jpg",
+                "frame_210.jpg",
+                "frame_240.jpg",
+                "frame_270.jpg",
+                "frame_30.jpg"
+            ],
+            "key_findings": {
+                "motion_detected": true,
+                "scene_dynamic": true,
+                "queue_detected": true,
+                "unauthorized_access_possible": true
+            }
+        },
+        {
+            "batch_number": 3,
+            "frames_processed": [
+                "frame_300.jpg",
+                "frame_330.jpg",
+                "frame_360.jpg",
+                "frame_390.jpg",
+                "frame_420.jpg"
+            ],
+            "key_findings": {
+                "motion_detected": true,
+                "scene_dynamic": true,
+                "queue_detected": false,
+                "unauthorized_access_possible": true
+            }
+        },
+        {
+            "batch_number": 4,
+            "frames_processed": [
+                "frame_450.jpg",
+                "frame_480.jpg",
+                "frame_510.jpg",
+                "frame_540.jpg",
+                "frame_570.jpg"
+            ],
+            "key_findings": {
+                "motion_detected": true,
+                "scene_dynamic": true,
+                "queue_detected": false,
+                "unauthorized_access_possible": true
+            }
+        },
+        {
+            "batch_number": 5,
+            "frames_processed": [
+                "frame_60.jpg",
+                "frame_600.jpg",
+                "frame_630.jpg",
+                "frame_660.jpg",
+                "frame_690.jpg"
+            ],
+            "key_findings": {
+                "motion_detected": true,
+                "scene_dynamic": true,
+                "queue_detected": true,
+                "unauthorized_access_possible": true
+            }
+        },
+        {
+            "batch_number": 6,
+            "frames_processed": [
+                "frame_720.jpg",
+                "frame_750.jpg",
+                "frame_780.jpg",
+                "frame_810.jpg",
+                "frame_840.jpg"
+            ],
+            "key_findings": {
+                "motion_detected": true,
+                "scene_dynamic": true,
+                "queue_detected": false,
+                "unauthorized_access_possible": true
+            }
+        },
+        {
+            "batch_number": 7,
+            "frames_processed": [
+                "frame_870.jpg",
+                "frame_90.jpg",
+                "frame_900.jpg",
+                "frame_930.jpg",
+                "frame_960.jpg"
+            ],
+            "key_findings": {
+                "motion_detected": true,
+                "scene_dynamic": true,
+                "queue_detected": true,
+                "unauthorized_access_possible": true
+            }
+        },
+        {
+            "batch_number": 8,
+            "frames_processed": [
+                "frame_990.jpg"
+            ],
+            "key_findings": {
+                "motion_detected": false,
+                "scene_dynamic": false,
+                "queue_detected": false,
+                "unauthorized_access_possible": false
+            }
+        }
+    ]
+}

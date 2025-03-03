@@ -1,0 +1,41 @@
+{
+    "analysis": {
+        "motion_detected": true,
+        "scene_dynamic": true,
+        "queue_detected": false,
+        "unauthorized_access_possible": true
+    },
+    "what_is_in_frame": "The frames show a jewelry store robbery in progress. A black SUV has crashed through the front window of the store. There are individuals wearing helmets and dark clothing inside the store, one carrying a bag. They appear to be stealing items from display cases. Broken glass and debris are scattered around the scene. One frame indicates that one of the thieves was caught and is serving a 10-year jail sentence.",
+    "original_data": {
+        "scene_classification": [
+            "robbery",
+            "store",
+            "crime scene",
+            "indoor"
+        ],
+        "detected_objects": [
+            "car",
+            "jewelry",
+            "display case",
+            "person",
+            "helmet",
+            "bag",
+            "glass shards"
+        ],
+        "suspicious_behavior": {
+            "loitering_detected": false,
+            "sudden_movement_detected": true
+        }
+    },
+    "batch_info": {
+        "batch_number": 6,
+        "frames_processed": [
+            "frame_720.jpg",
+            "frame_750.jpg",
+            "frame_780.jpg",
+            "frame_810.jpg",
+            "frame_840.jpg"
+        ],
+        "timestamp": "2025-03-02T06:17:27.799230"
+    }
+}

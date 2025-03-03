@@ -1,0 +1,42 @@
+{
+    "analysis": {
+        "motion_detected": true,
+        "scene_dynamic": true,
+        "queue_detected": true,
+        "unauthorized_access_possible": true
+    },
+    "what_is_in_frame": "The frame depicts the interior of a jewelry store, featuring customers and staff. There are display cases filled with watches and jewelry, seating areas with chairs and tables, and luggage present. The footage, marked with the Metropolitan Police logo, appears to be security camera footage, dated October 25, 2019. A logo for The Telegraph appears in some frames.",
+    "original_data": {
+        "scene_classification": [
+            "indoor",
+            "retail",
+            "commercial",
+            "jewelry store"
+        ],
+        "detected_objects": [
+            "people",
+            "display cases",
+            "watches",
+            "jewelry",
+            "chairs",
+            "tables",
+            "luggage",
+            "bags"
+        ],
+        "suspicious_behavior": {
+            "loitering_detected": false,
+            "sudden_movement_detected": true
+        }
+    },
+    "batch_info": {
+        "batch_number": 1,
+        "frames_processed": [
+            "frame_0.jpg",
+            "frame_1020.jpg",
+            "frame_1050.jpg",
+            "frame_120.jpg",
+            "frame_150.jpg"
+        ],
+        "timestamp": "2025-03-02T06:17:04.320034"
+    }
+}

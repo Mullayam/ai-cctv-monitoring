@@ -1,0 +1,24 @@
+{
+    "analysis": {
+        "motion_detected": false,
+        "scene_dynamic": false,
+        "queue_detected": false,
+        "unauthorized_access_possible": false
+    },
+    "what_is_in_frame": "The image shows the logo of 'The Telegraph' newspaper in white against a dark blue background. Below the logo, there is a small text 'READ MORE AT:'. The overall style is clean and minimalistic.",
+    "original_data": {
+        "scene_classification": [],
+        "detected_objects": [],
+        "suspicious_behavior": {
+            "loitering_detected": false,
+            "sudden_movement_detected": false
+        }
+    },
+    "batch_info": {
+        "batch_number": 8,
+        "frames_processed": [
+            "frame_990.jpg"
+        ],
+        "timestamp": "2025-03-02T06:17:33.536464"
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "analysis": {
+        "motion_detected": true,
+        "scene_dynamic": true,
+        "queue_detected": true,
+        "unauthorized_access_possible": true
+    },
+    "what_is_in_frame": "The frames depict a jewelry store robbery taking place during the day. A car has crashed through the storefront, and multiple thieves, dressed in dark clothing and helmets, are smashing display cases and stealing jewelry. Other people with suitcases are also in the frame. The scene is chaotic, with debris scattered everywhere. The Metropolitan Police logo is visible in the bottom left corner of some frames, indicating that the video is from police surveillance footage. Text overlays describe the event as a daylight robbery and mention that one of the thieves was caught by members of the public.",
+    "original_data": {
+        "scene_classification": [
+            "robbery",
+            "crime scene",
+            "retail",
+            "indoor"
+        ],
+        "detected_objects": [
+            "car",
+            "jewelry display case",
+            "jewelry",
+            "person",
+            "helmet",
+            "suitcase",
+            "chair",
+            "table",
+            "glass fragments"
+        ],
+        "suspicious_behavior": {
+            "loitering_detected": false,
+            "sudden_movement_detected": true
+        }
+    },
+    "batch_info": {
+        "batch_number": 5,
+        "frames_processed": [
+            "frame_60.jpg",
+            "frame_600.jpg",
+            "frame_630.jpg",
+            "frame_660.jpg",
+            "frame_690.jpg"
+        ],
+        "timestamp": "2025-03-02T06:17:24.051896"
+    }
+}

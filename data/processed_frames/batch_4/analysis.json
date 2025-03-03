@@ -1,0 +1,41 @@
+{
+    "analysis": {
+        "motion_detected": true,
+        "scene_dynamic": true,
+        "queue_detected": false,
+        "unauthorized_access_possible": true
+    },
+    "what_is_in_frame": "The frames show a jewelry store robbery in progress. Several individuals dressed in dark clothing are smashing display cases and grabbing merchandise. Shattered glass is scattered across the floor. One person is holding what appears to be a crowbar or hammer. There's a display of jewelry mannequins along one wall, and security camera footage timestamps are visible in the corners of the frames, along with the logo of the Metropolitan Police.",
+    "original_data": {
+        "scene_classification": [
+            "indoor",
+            "robbery",
+            "commercial space",
+            "jewelry store"
+        ],
+        "detected_objects": [
+            "person",
+            "display case",
+            "jewelry",
+            "hammer",
+            "glass shards",
+            "chair",
+            "security camera"
+        ],
+        "suspicious_behavior": {
+            "loitering_detected": false,
+            "sudden_movement_detected": true
+        }
+    },
+    "batch_info": {
+        "batch_number": 4,
+        "frames_processed": [
+            "frame_450.jpg",
+            "frame_480.jpg",
+            "frame_510.jpg",
+            "frame_540.jpg",
+            "frame_570.jpg"
+        ],
+        "timestamp": "2025-03-02T06:17:18.774657"
+    }
+}
