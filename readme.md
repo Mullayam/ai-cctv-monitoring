@@ -11,7 +11,8 @@
 ### Object Detection & Tracking
 
 - Detect people and objects in the scene.
-- YOLOv8 (real-time object detection), Vision Transformer (For advanced image understanding).
+- Send All Image to AI and detect.
+- (Also if needed) YOLOv8 (real-time object detection), Vision Transformer (For advanced image understanding).
 
 ### Activity Recognition & Anomaly Detection
 
@@ -26,15 +27,11 @@
 - Uses LangGraph to analyze detections and decide event severity (normal vs. suspicious).
 - Determines if an alert should be triggered or just logged.
 
-### **Temporal Analysis**:
-
-- Tracks trends over time (e.g., queue congestion spikes).
-- Differentiates between short-term anomalies and long-term trends.
+ 
 
 ### Automated Report
-
 - Number of unauthorized access events.Queue congestion trends.Suspicious behavior occurrences.
-- Formats reports in JSON, CSV, or PDF for store managers.
+- Formats reports in JSON
 
 # Workflow Overview
 
@@ -55,36 +52,4 @@ DeepSORT tracks movement.
 - Summarizes daily store activity in a structured format.
 - Sends real-time alerts if critical events occur.
 
-
-
-ai-cctv-monitoring/
-│── data                               # Stores all video data, processed frames, logs, and reports  
-│   ├── detected_frames                # Contains frames where objects/activities were detected  
-│   ├── logs                           # Stores system and processing logs  
-│   ├── processed_frames               # Stores frames after preprocessing (e.g., filtered, enhanced)  
-│   ├── raw_videos                     # Original unprocessed video files  
-│   │   ├── CAM1.mp4                   # Video from Camera 1  
-│   │   ├── CAM2.mp4                   # Video from Camera 2  
-│   ├── reports                        # Stores generated reports (e.g., activity summaries, security logs)  
-│── models                             # Contains AI/ML models for detection and recognition  
-│   ├── activity_recognition           # Models for recognizing human activities  
-│   ├── object_detection               # Models for detecting objects in videos  
-│   │   ├── yolo_detector.py           # YOLO-based object detection implementation  
-│── src                                # Source code for different components of the system  
-│   ├── activity_recognition           # Code related to recognizing activities in video  
-│   │   ├── activity_classifier.py     # Classifies different human activities  
-│   │   ├── activity_detection.py      # Detects human activities in video  
-│   │   ├── pose_estimation.py         # Estimates human poses from video frames  
-│   ├── ai_agent                       # AI-driven decision-making logic  
-│   │   ├── ai-agent.py                # Main AI agent for decision-making  
-│   │   ├── decision_agent.py          # Implements decision logic based on events  
-│   │   ├── event_classifier.py        # Classifies events based on detected activities  
-│   ├── object_detection               # Code related to object tracking  
-│   │   ├── multi_object_tracker.py    # Tracks multiple objects in real time  
-│   ├── video_processing               # Handles video-related operations  
-│   │   ├── video_reader.py            # Reads and processes video files  
-│   ├── report_generator.py            # Generates reports from detected events and activities  
-│   ├── main.py                        # Entry point of the application  
-│── readme.md                          # Documentation and project details  
-│── requirements.txt                    # List of dependencies for the project  
-
+ 
